@@ -34,7 +34,7 @@ void loop()
   // print out the state of the button:
   Serial.println(button1);
   delay(1); 
-
+//if (button1==LOW && button2==HIGH && button3==LOW && button4==LOW)
 if (button1==HIGH)
 {
   Forward();
